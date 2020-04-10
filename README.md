@@ -32,7 +32,7 @@ Open Terminal, then enter:
  This program is a practice vocabulary examination based on common SAT words. Out of the 1000 most common SAT words,
  the 300 most difficult words were scraped from https://www.vocabulary.com/lists/191545 using the python script
   scraper.py. The script parses through all of the data, creates an sqlite3 database called dictionary.db and saves to 
- a table two fields: word and definition. The c++ program practice_test.cpp opens this database and stores the data
- in two vectors. It allows the user to choose the number of questions they would like to attempt, then generates
- a set of random multiple choice questions. After answering all of the questions, the user's score and time taken is 
- displayed.
+ a table two fields: word and definition. The c++ program practice_test.cpp calls the python script and then
+  opens the database and stores the data in two vectors. It allows the user to choose the number of questions they would
+   like to attempt, then generates a set of random multiple choice questions. After answering all of the questions, 
+   the user's score and time taken is displayed.
