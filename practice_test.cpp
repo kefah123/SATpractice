@@ -1,4 +1,3 @@
-
 #include <sqlite3.h>
 #include <string>
 #include <iostream>
@@ -37,6 +36,7 @@ int display_question(vector<string> &definitions, vector<string> &questions,
 */
 int get_int_input(string prompt, string invalid, int low, int high);
 int main(int argc, char* argv[]) {
+    system("python3 scraper.py");
     vector<string> words;
     vector<string> definitions;
     srand(time(NULL));
