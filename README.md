@@ -36,3 +36,9 @@ Open Terminal, then enter:
   opens the database and stores the data in two vectors. It allows the user to choose the number of questions they would
    like to attempt, then generates a set of random multiple choice questions. After answering all of the questions, 
    the user's score and time taken is displayed.
+   
+ Known bugs: 
+ There is a 1/299 chance that duplicate answer choices will be displayed in a question. 
+ In the case where the correct answer is duplicated, only one of the answer choices will result in a correct answer,
+ so the user has a 50/50 chance.
+ 
