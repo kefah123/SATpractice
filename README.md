@@ -20,10 +20,12 @@ Installations:
 
 To compile and run program(Mac):
 
-Open Terminal then enter:
+Open Terminal, then enter:
 
  g++ practice_test.cpp -l sqlite3
+ 
  ./a.out
+ 
  
  Summary:
  
