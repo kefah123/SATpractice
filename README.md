@@ -1,6 +1,8 @@
 # KE-Final-Project-MPL
 SAT Words Practice Exam
+
 Team Members: Kwasi Efah
+
 References: 
 1) Author: CL. 
 Date: April 6, 2013
