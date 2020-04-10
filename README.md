@@ -40,5 +40,5 @@ Open Terminal, then enter:
  Known bugs: 
  There is a 1/299 chance that duplicate answer choices will be displayed in a question. 
  In the case where the correct answer is duplicated, only one of the answer choices will result in a correct answer,
- so the user has a 50/50 chance.
+ so the user has a 50/50 chance, assuming they know the correct answer.
  
