@@ -19,11 +19,14 @@ Installations:
 4) sqlite3 (pip3 install sqlite3)
 
 To compile and run program(Mac):
+
 Open Terminal then enter:
+
  g++ practice_test.cpp -l sqlite3
  ./a.out
  
  Summary:
+ 
  This program is a practice vocabulary examination based on common SAT words. Out of the 1000 most common SAT words,
  the 300 most difficult words were scraped from https://www.vocabulary.com/lists/191545 using the python script
   scraper.py. The script parses through all of the data, creates an sqlite3 database called dictionary.db and saves to 
