@@ -1,7 +1,4 @@
-# KE-Final-Project-MPL
-SAT Words Practice Exam
-
-Team Members: Kwasi Efah
+# SAT Words Practice Exam
 
 References: 
 1) Author: CL. 
